@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Agro_Vision/static/css/main.b87c0806.css",
+    "main.js": "/Agro_Vision/static/js/main.413464a7.js",
+    "static/media/home-img.png": "/Agro_Vision/static/media/home-img.9675ee4d2f6d32369696.png",
+    "static/media/footerBg.png": "/Agro_Vision/static/media/footerBg.c348c1bedb0ad9d9a5b0.png",
+    "static/media/feature.png": "/Agro_Vision/static/media/feature.2107ff5043f764c662a4.png",
+    "static/media/logo.png": "/Agro_Vision/static/media/logo.df11b3f6076d60ec093a.png",
+    "static/media/sms.png": "/Agro_Vision/static/media/sms.c222102b99385c92dabc.png",
+    "static/media/help-desk.png": "/Agro_Vision/static/media/help-desk.89d59eed5e3ac937cba1.png",
+    "static/media/voice-message.png": "/Agro_Vision/static/media/voice-message.462874eb12eeecd61060.png",
+    "static/media/phone-call.png": "/Agro_Vision/static/media/phone-call.d35848942c955a6232b3.png",
+    "index.html": "/Agro_Vision/index.html",
+    "main.b87c0806.css.map": "/Agro_Vision/static/css/main.b87c0806.css.map",
+    "main.413464a7.js.map": "/Agro_Vision/static/js/main.413464a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b87c0806.css",
+    "static/js/main.413464a7.js"
+  ]
+}
