@@ -101,16 +101,16 @@ const Voice = () => {
     <>
       <PreHeader />
       <Header />
-      <section className="">
-        <div className="grid place-items-center my-14  ">
-          <div className="container bg-gray-100 p-10  mt-14 text-center">
+      <section className="" style={{ backgroundColor: "green", color: "white" }}>
+        <div className="grid place-items-center my-5  ">
+          <div className="container bg-black p-10  mt-14 text-center">
             <p className="text-2xl font-medium text-green-600 my-12">
               Ask your queries here
               <br />
             </p>
             <div className="flex flex-row space-x-3 my-10">
               <div>Please select a Language, default language is English</div>
-              <div className="ml-16 ">
+              <div className="ml-16  ">
                 <button
                   onClick={() => setLang("en")}
                   type="button"
@@ -134,7 +134,7 @@ const Voice = () => {
                 onChange={(e) => {
                   setLog(e.target.value);
                 }}
-                className="w-4/5 pr-4"
+                className="w-4/5 pr-4 text-black"
                 type="text"
                 placeholder="Search"
               />

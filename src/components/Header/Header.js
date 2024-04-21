@@ -7,7 +7,7 @@ const Header = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="h-10 inPhone my-2">
+    <div className="h-10 inPhone my-2" >
       <div className="flex content-center">
         <div className="flex items-center cursor-pointer ml-auto lg:ml-16">
           <img
@@ -22,37 +22,37 @@ const Header = () => {
           <ul className="flex mt-4 items-around">
             <li
               onClick={() => navigate("/")}
-              className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 lg:ml-7 ml-6 mr-1.5"
+              className="text-sm cursor-pointer font-semibold  text-green-600 hover:opacity-90 hover:text-black hover:transition-all duration-300 ease-in-out lg:ml-7 ml-6 mr-1.5"
             >
               Home
             </li>
             <li
-              className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
+              className="text-sm cursor-pointer font-semibold text-green-600 hover:opacity-90 hover:text-black hover: transition-all duration-300 ease-in-out ml-6 mr-1.5"
               onClick={() => navigate("/voice")}
             >
               Voice Help
             </li>
             <li
-              className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
+              className="text-sm cursor-pointer font-semibold text-green-600 hover:opacity-90 hover:text-black hover: transition-all duration-300 ease-in-out ml-6 mr-1.5"
               onClick={() => navigate("/crop")}
             >
               Crop Recommendation
             </li>
             <li
               onClick={() => navigate("/fertilizer")}
-              className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
+              className="text-sm cursor-pointer font-semibold text-green-600 hover:opacity-90 hover:text-black hover: transition-all duration-300 ease-in-out ml-6 mr-1.5"
             >
               Fertilizer Recommendation
             </li>
             <li
               onClick={() => navigate("/disease")}
-              className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
+              className="text-sm cursor-pointer font-semibold text-green-600 hover:opacity-90 hover:text-black hover: transition-all duration-300 ease-in-out ml-6 mr-1.5"
             >
               Disease Prediction
             </li>
             <li
               onClick={() => navigate("/sms")}
-              className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
+              className="text-sm cursor-pointer font-semibold text-green-600 hover:opacity-90 hover:text-black hover: transition-all duration-300 ease-in-out ml-6 mr-1.5"
             >
               SMS Service
             </li>

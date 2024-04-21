@@ -6,6 +6,7 @@ import Vector from "../img/Vector.png";
 import Vector1 from "../img/Vector1.png";
 import Vector2 from "../img/Vector2.png";
 import footerBg from "../img/footerBg.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -30,8 +31,8 @@ const Footer = () => {
           <div className="flex">
             <ul className="list-none mr-24">
               <li
-                className="text-lg text-white font-bold cursor-pointer"
-                onClick={() => navigate("/")}
+                className="text-lg text-white font-bold "
+               
               >
                 Home
               </li>
@@ -63,8 +64,8 @@ const Footer = () => {
             </ul>
             <ul>
             <li
-                className="text-lg text-white font-bold cursor-pointer"
-                onClick={() => navigate("/fertilizer")}
+                className="text-lg text-white font-bold"
+                
               >
                 Our Services
                 </li>
@@ -82,7 +83,7 @@ const Footer = () => {
               </li>
               <li
                 className="text-lg text-white font-medium cursor-pointer my-1"
-                onClick={() => navigate("/voice")}
+                
               >
                 Weather Prediction
               </li>

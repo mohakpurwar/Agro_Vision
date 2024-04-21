@@ -69,16 +69,16 @@ const Fertilizer = () => {
     <>
       <PreHeader />
       <Header />
-      <section className="">
-        <div className="grid place-items-center my-14  ">
-          <div className="container bg-gray-100 p-10 grid place-items-center mt-14  ">
+      <section className=" bg-green-600">
+        <div className="grid place-items-center my-5  ">
+          <div className="container bg-black  p-10 grid place-items-center mt-14  ">
             <p className="text-2xl font-medium text-green-600 my-12">
               Predict the Fertilizer for your crop
               <br />
             </p>
 
             <div className="flex flex-row space-x-3 my-10">
-              <div>Please select a Language, default language is English</div>
+              <div className="text-white">Please select a Language, default language is English</div>
               <div className="ml-16 ">
                 <button
                   onClick={() => setLang("en")}
@@ -103,7 +103,7 @@ const Fertilizer = () => {
               
             </div>
             <div className="flex flex-row my-2 w-3/5">
-              <div>Select a Soil Type</div>
+              <div className="text-white">Select a Soil Type</div>
               <div className="ml-16 ">
                 <select
                   onChange={(e) => setSoilType(e.target.value)}
@@ -119,7 +119,7 @@ const Fertilizer = () => {
             </div>
             {/* dropdown for crop type */}
             <div className="flex flex-row my-2 w-3/5">
-              <div>Select a Crop Type</div>
+              <div className="text-white">Select a Crop Type</div>
               <div className="ml-16 ">
                 <select
                   onChange={(e) => setCropType(e.target.value)}
